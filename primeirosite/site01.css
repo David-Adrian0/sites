@@ -64,6 +64,10 @@ body{
     color: #ffffff;
     transition: 0.5s;
 }
+#pesquisa{
+    outline: none;
+    
+}
 #nome-site{
     margin-left: 80px;
     margin-top: 280px;
@@ -87,20 +91,62 @@ body{
     font-size: 5em;
     font-family: 'Tilt Warp', cursive;
     color: #ffffff;
-}
-#titulo-boas-vindas{
-    position: relative;
-    letter-spacing: 9px;
 
-    animation-name: boas-vindas 0s 1.1s both;
+    background-color: #000000fa;
 
-    opacity: 0;
+    margin-bottom: -25px;
 }
-@keyframes boas-vindas{
-    from{
-        opacity: 0;
-    }
-    to{
-        opacity: 1;
-    }
+#div-descrição-videos{
+    color: #ffffff;
+
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+
+    padding: 15px;
+}
+#past-videos{
+    background-color: #000000fa;
+}
+#caixa-videos{
+    padding: 10px;
+}
+#menu-videos-tamanho iframe{
+    width: 390px;
+    height: 219px;
+
+    display: inline-flex;
+
+    margin-left: 80px;
+}
+#box-video-title a{
+    color: #ffffff;
+    text-decoration: none;
+}
+#box-video-title ul li{
+    display: inline-block;
+
+    margin-inline: 8.5em;
+}
+#box-video-title ul{
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+
+    margin-bottom: 10em;
+}
+#box-video-title a:hover{
+    color: aqua;
+    transition: 1s;
+}
+#div-box-footer{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#ul-redesocial li{
+    display: inline-block;
+}
+#footer ul li{
+    margin-inline: 20px;
 }

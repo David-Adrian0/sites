@@ -60,17 +60,14 @@ body{
     font-size: 1.2em;
 }
 .opções-site a:hover{
-    text-decoration: underline;
-    text-decoration-color: red;
-    text-decoration-line: 10px;
-    transition: 0.5s;
+    
 }
 .opçoes a{
     color: #878787;
 }
 .opçoes a:hover{
     color: #ffffff;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 #pesquisa{
     outline: none;
@@ -100,11 +97,11 @@ body{
     font-family: 'Tilt Warp', cursive;
     color: #ffffff;
 
-    background-color: #000000fa;
+    background-color: #00000000;
 
     text-shadow: 1px 1px 3px #ffffff;
 
-    margin-bottom: -25px;
+    margin-top: 50px;
 }
 #div-descrição-videos{
     color: #ffffff;
@@ -144,11 +141,91 @@ body{
     font-family: 'Kanit', sans-serif;
     font-weight: 400;
 
-    margin-bottom: 10em;
+    margin-bottom: 5em;
 }
 #box-video-title a:hover{
     color: aqua;
     transition: 1s;
+}
+#div-veja-tambem-box{
+    margin-left: 12em;
+}
+#tema-veja-tambem-01{
+
+}
+#tema-veja-tambem-02{
+    margin-top: -40px;
+}
+#veja-tambem-2{
+    margin-right: 32em;
+    text-align: center;
+}
+.main-txt{
+    background-color: transparent;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    font-size: 4em;
+    color: #ffffff;
+}
+.main2-txt{
+    background-color: transparent;
+    color: #ffffff;
+}
+#veja-tambem{
+    padding: 1em;
+
+    margin: -130px 260px 10px 395px;
+
+    border-radius: 10px;
+}
+#veja-tambem:hover{
+    border: #0000ff 1px solid;
+    box-shadow: 0px 0px 15px #0000ff85;
+    transition: 1s;
+}
+.conjunto-artigo{
+    background-color: transparent;
+    height: 130px;
+    margin-bottom: 1em;
+    padding: 0em;
+}
+.formato-imagem-tumb-video{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.posição-conteudo{
+    margin-left: 210px;
+    margin-top: -113px;
+}
+.titulo-conteudo{
+    color: #ffffff;
+}
+.link-conteudo-escrito{
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-family: 'Kanit', sans-serif;
+    font-weight: 200;
+}
+.posição-descrição-video{
+    padding: 2px;
+    margin-top: 5px;
+
+    color: #ffffff;
+    text-transform: uppercase;
+
+    font-family: 'Kanit', sans-serif;
+    font-weight: 200;
+    text-align: justify;
+    font-size: 15px;
+}
+.conjunto-artigo:hover{
+    background-color: #00a6ff;
+    border-radius: 10px;
+    transition: 1s;
+}
+#box-artigo-05{
+    margin-bottom: 0em;
 }
 #div-box-footer{
     text-align: center;

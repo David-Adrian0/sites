@@ -227,27 +227,12 @@ body{
 #box-artigo-05{
     margin-bottom: 0em;
 }
-#div-box-footer{
-    text-align: center;
-    margin-bottom: 0px;
-    
-    background-color: #838181;
+#div-box-redesocial{
+    background-color: #008000;
 }
-#ul-redesocial li{
-    display: inline-block;
+#box-rede-social{
+
 }
-#footer ul li{
-    margin-inline: 20px;
-}
-#tamanho-tiktok{
-    width: 43px;
-    height: 46px;
-}
-#tamanho-youtube{
-    width: 50px;
-    height: 50px;
-}
-#tamanho-instagram{
-    width: 55px;
-    height: 55px;
+.redesocial{
+
 }

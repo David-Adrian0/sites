@@ -1,0 +1,9 @@
+#pesquisa{
+    outline: none;
+    padding-left: 5px;
+    font-size: 13px;
+}
+#pesquisa::placeholder{
+    padding-left: 2px;
+    color: black;
+}

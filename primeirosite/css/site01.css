@@ -2,12 +2,13 @@
     margin: 0px;
     padding: 0px;
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Kanit', Arial, Helvetica, sans-serif;
 }
 body{
     width: 100%;
     height: 100%;
     margin: 0 auto;
+    margin-bottom: 5em;
     background-color: #000000fa;
 }
 #imagem-fundo{
@@ -68,10 +69,6 @@ body{
 .opçoes a:hover{
     color: #ffffff;
     transition: 0.3s;
-}
-#pesquisa{
-    outline: none;
-    
 }
 #nome-site{
     margin-left: 80px;
@@ -174,7 +171,7 @@ body{
 #veja-tambem{
     padding: 1em;
 
-    margin: -130px 260px 10px 395px;
+    margin: -600px 260px 10px 395px;
 
     border-radius: 10px;
 }
@@ -187,7 +184,7 @@ body{
     background-color: transparent;
     height: 130px;
     margin-bottom: 1em;
-    padding: 0em;
+    padding: 1em;
 }
 .formato-imagem-tumb-video{
     margin-left: 5px;
@@ -228,11 +225,25 @@ body{
     margin-bottom: 0em;
 }
 #div-box-redesocial{
-    background-color: #008000;
+}
+#apresentação-redesocial{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+#posição-elementos{
+    padding-left: 8%;
 }
 #box-rede-social{
 
 }
 .redesocial{
 
+}
+.distancia-linha-rede{
+    margin-bottom: 90px;
+}
+.posição-imagem{
+    margin-left: 12px;
 }
